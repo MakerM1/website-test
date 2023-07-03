@@ -1,0 +1,247 @@
+body {
+    font-family: helvetica;
+}
+
+header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 18px;
+}
+
+.main-logo {
+    margin-left: 99px;
+}
+
+.main-logo:hover {
+    cursor: pointer;
+}
+
+.menu {
+    margin-right: 72px;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 50px;
+    color: #636060;
+    font-weight: 400;
+    font-size: 17px;
+    -webkit-transition: all 0.15s;
+    -o-transition: all 0.15s;
+    transition: all 0.15s;
+}
+
+.menu li:hover {
+    cursor: pointer;
+    color: #6c348c;
+}
+
+.fa-bars {
+    display: none;
+    margin-right: 30px;
+    margin-left: 100px;
+}
+
+.open-menu {
+    display: none;
+}
+
+.open-menu-active {
+    transition: all 1s;
+    z-index: 100;
+    position: fixed;
+    background-color: white;
+    right: 0;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    animation-name: open;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes open {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.open-menu-sel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.open-menu-sel li {
+    margin-right: 10px;
+    margin-top: 38px;
+    margin-bottom: 20px;
+    color: #6c348c;
+    font-weight: 600;
+    font-size: 11px;
+    margin-right: 10px;
+}
+
+.fa-circle-xmark {
+    position: sticky;
+    margin-top: 43px;
+    right: 30px;
+    margin-left: 20px;
+}
+
+.s1 {
+    background-image: url(../images/s1-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 606px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 84px;
+}
+
+.s1-title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.title1 {
+    font-size: 79px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 31px;
+}
+
+.travel {
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+}
+
+.section-conteiner {
+    max-width: 1359px;
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.hot {
+    margin-right: 90px;
+    margin-left: 10px;
+}
+
+.hot h2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: #636060;
+    margin-bottom: 9px;
+}
+
+.hot h1 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #010101;
+    margin-bottom: 37px;
+}
+
+.hot p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #636060;
+    width: 235px;
+}
+
+.flex-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.content1 {
+    padding: 10px 10px 10px 10px;
+    margin-right: 33px;
+    margin-bottom: 36px;
+    -webkit-transition: all 0.15s;
+    -o-transition: all 0.15s;
+    transition: all 0.15s;
+}
+
+.content1:hover {
+    cursor: pointer;
+    background-color: rgb(235, 232, 232);
+}
+
+.content1 img {
+    margin-bottom: 21px;
+}
+
+.content1 h1 {
+    margin-bottom: 9px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #343232;
+}
+
+.content1 p {
+    width: 286px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    color: #636060;
+}
