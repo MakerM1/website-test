@@ -1,0 +1,98 @@
+@media (max-width: 1454px) {
+    .flex-wrapper {
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 1120px) {
+    .section-conteiner {
+        display: inline-block;
+        margin-left: 0;
+    }
+
+    .hot {
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .hot-conteiner {
+        max-width: 235px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .hot p {
+        width: 350px;
+        margin-left: -50px;
+    }
+
+    .flex-wrapper {
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    .s1 {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 695px) {
+    .content1 img {
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .content1 h1 {
+        font-size: 15px;
+    }
+
+    .content1 p {
+        font-size: 13px;
+        width: 190px;
+    }
+
+    .main-logo {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 870px) {
+    .menu {
+        display: none;
+    }
+
+    .fa-bars {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 626px) {
+    .title1 {
+        font-size: 50px;
+    }
+
+    .travel {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .title1 {
+        font-size: 40px;
+    }
+
+    .travel {
+        font-size: 10px;
+    }
+}
+
+/* for samsung fold */
+
+@media (max-width: 290px) {
+    body {
+        width: 600px;
+    }
+}
